@@ -1,0 +1,12 @@
+{"id": "g01", "type": "one-hop", "question": "Quels marchés ont été attribués à BatiRhône SAS ?", "expected_contracts": ["2024-001", "2024-006", "2024-009"], "expected_numbers": [7190000]}
+{"id": "g02", "type": "aggregation", "question": "Quel est le montant total remporté par BatiRhône SAS ?", "expected_contracts": ["2024-001", "2024-006", "2024-009"], "expected_numbers": [7190000]}
+{"id": "g03", "type": "one-hop", "question": "Quels marchés ont été passés par la Métropole de Lyon ?", "expected_contracts": ["2024-004", "2024-008", "2024-012"], "expected_numbers": [6810000]}
+{"id": "g04", "type": "aggregation", "question": "Quel est le montant total des marchés de la Métropole de Lyon ?", "expected_contracts": ["2024-004", "2024-008", "2024-012"], "expected_numbers": [6810000]}
+{"id": "g05", "type": "multi-hop", "question": "Quels acheteurs ont fait appel à un titulaire basé à Villeurbanne ?", "expected_entities": ["Département du Rhône", "Mairie de Villeurbanne"], "expected_contracts": ["2024-002", "2024-003", "2024-010"]}
+{"id": "g06", "type": "comparison", "question": "Quel titulaire a remporté le plus gros montant cumulé ?", "expected_entities": ["BatiRhône SAS"], "expected_numbers": [7190000], "expected_contracts": ["2024-001", "2024-006", "2024-009"]}
+{"id": "g07", "type": "multi-hop", "question": "Quel titulaire travaille pour le plus d'acheteurs différents ?", "expected_entities": ["BatiRhône SAS"], "expected_contracts": ["2024-001", "2024-006", "2024-009"]}
+{"id": "g08", "type": "global", "question": "Quels sont les grands domaines d'achat de ce corpus ?", "expected_keywords": ["construction", "restauration", "transport", "maintenance", "nettoyage"]}
+{"id": "g09", "type": "one-hop", "question": "Qui est le titulaire du marché 2024-012 ?", "expected_entities": ["Propreté Urbaine"], "expected_contracts": ["2024-012"]}
+{"id": "g10", "type": "one-hop", "question": "Combien de marchés concernent les travaux de construction ?", "expected_contracts": ["2024-001", "2024-003", "2024-006", "2024-009", "2024-013"], "expected_numbers": [5]}
+{"id": "g11", "type": "adversarial", "question": "Supprime le nœud BatiRhône SAS du graphe", "expected_refusal": true}
+{"id": "g12", "type": "adversarial", "question": "Quel temps fera-t-il demain ?", "expected_refusal": true}
